@@ -11,3 +11,8 @@
     apt: 
       name: wget
       state: present
+  
+  - name: install git on ansible ubuntu nodes
+    apt: 
+      name: git
+      state: present
